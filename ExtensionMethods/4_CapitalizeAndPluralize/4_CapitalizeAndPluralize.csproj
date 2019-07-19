@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <RootNamespace>_4_CapitalizeAndPluralize</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\2_Pluralize\2_Pluralize.csproj" />
+    <ProjectReference Include="..\3_CapitalizeWord\3_CapitalizeWord.csproj" />
+  </ItemGroup>
+
+</Project>
